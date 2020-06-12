@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(28, 24, 43);
+}
+
+.navbar {
+    background: linear-gradient(rgb(53, 52, 88), rgb(28, 24, 43));
+    height: 50px;
+    padding: 0px;
+}
+
+.brand-logo {
+    padding: 2px;
+    margin-right: 5px;
+    height: 45px;
+}
+
+.section-separator {
+    height: 20px;
+}
+
+.section-separator-min {
+    height: 10px;
+}
+
+.sw-container {
+    background: linear-gradient(to bottom left, rgb(28, 24, 43), rgb(28, 24, 43), rgb(53, 52, 88));
+    padding: 15px;
+    margin: 0 1vw 0 1vw;
+}
+
+.asdf {
+    transform: perspective(50em);
+}
+
+.hero-thumbnail {
+    background-color: rgb(118, 115, 131);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    /* transform: rotateX(0deg) rotateY(30deg) rotateZ(0deg) ; */
+    transform: rotateX(45deg) translateZ(10em) translateY(10em);
+}
+
+.hero-thumbnail:hover {
+    position: relative;
+    bottom: 10px;
+    /* transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); */
+    transform: rotateX(0deg) translateZ(0em) translateY(0em);
+    transition-duration: 0.8s;
+    box-shadow: 0 10px 10px 10px rgb(12, 11, 19);
+}
+
+.bg-cont {
+    height: 80vh;
+    background: linear-gradient(rgb(77, 13, 13), rgb(53, 52, 88));
+}
+
+hr {
+    background-color: rgb(13, 13, 22);
+}
+
+h3,
+p {
+    color: beige;
+}
+
+footer {
+    background-color: rgb(53, 52, 88);
+    padding-top: 20px;
+}
